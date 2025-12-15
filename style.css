@@ -766,12 +766,15 @@ textarea{
     cursor: pointer;
     font-weight: bold;
     width: 100%;
-    transition: all 0.5 ease;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+    
+
 }
 
 .botao-form:hover{
-    transform: translateY(-4px);
+    transform: scale(1.05);
     box-shadow: 0 5px 15px #0c9b48;
+    transition:  0.5 ease;
 }
 
 /* Estilos gerais para o footer */
@@ -884,6 +887,7 @@ textarea{
 @media screen and (max-width: 1020px){
     /* Classes Gerais */
 
+
     h2.titulo{
         font-size: 32px;
         line-height: 32px;
@@ -920,7 +924,6 @@ textarea{
         display: none;
     }
 
-
     .btn-abrir-menu{
         display: block;
     }
@@ -931,10 +934,7 @@ textarea{
 
     }
 
-     .btnContato1 button{
-        font-size: 32px;
-        margin-bottom: 20px;
-     }
+ 
 
     /* Topo do Site */
 
@@ -1012,9 +1012,10 @@ textarea{
         
     }
     section.vantagens .flex img{
-        width: 400px;
+        width: 300px;
         height: auto;
         align-items: center;
+        justify-content: center;
     }
 
     section.vantagens .flex .cards{
@@ -1032,8 +1033,11 @@ textarea{
         height: auto;
     }
     section.speedNet .flex img{
-        width: 300px;
+        padding-top: 20px;
+        width: 320px;
         height: auto;
+        border-radius: 40px;
+        display: none;
     }
 
 
@@ -1049,19 +1053,18 @@ textarea{
     }
 
     section.clientes .flex img{
-    
-    border-radius: 10%;
+        width: 100%;
+        height: auto;
+
 
     }
 
+    /* Estilo das Clientes*/
 
-
-
-
-
-
-
-
+    section.contato .contatos2{
+        padding: 0;
+        text-align: start;
+    }
 
 
 
