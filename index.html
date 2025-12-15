@@ -4,24 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font -->
+    <!-- Preload de fontes e CSS -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" as="style" />
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" as="style" />
+    
+    <!-- Preconnect para fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- Fim Font -->
-    <!-- Bootstrap icons -->
+
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- Bootstrap icons fim -->
+    
     <title>SPEEDNET TELECOM em Riacho Fundo 2 - DF</title>
     <link rel="icon" href="img/faviconSpeedNet.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-     <!-- Meta Tags para as redes sociais (WhatsApp, Facebook, LinkedIn etc) -->
+    <!-- Meta Tags para as redes sociais (WhatsApp, Facebook, LinkedIn etc) -->
     <meta property="og:title" content="SpeedNet - Internet Rápida e Confiável no Riacho Fundo 2">
     <meta property="og:description" content="Conecte-se com a melhor internet de Riacho Fundo 2: planos de até 1 Giga por apenas R$79,90. Velocidade, estabilidade e preço justo para você navegar sem limites.">
     <meta property="og:image" content="https://speed-net-snowy.vercel.app/img/fachadaSpeedAtual%20(2).png">
     <meta property="og:url" content="https://speednetdf.com/">
     <meta property="og:type" content="website">
     <script src="menu.js" defer></script>
+
+    <!-- Carregar CSS de forma assíncrona -->
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="style.css" />
+    </noscript>
 </head>
 
 <body>
@@ -403,6 +412,20 @@
     </div>
 </footer>
 
+<script>
+    // Carregar fontes e Bootstrap Icons de forma assíncrona
+    (function() {
+        var link = document.createElement('link');
+        link.href = 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css';
+        link.rel = 'stylesheet';
+        document.head.appendChild(link);
+    })();
+
+    var linkFont = document.createElement('link');
+    linkFont.href = 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap';
+    linkFont.rel = 'stylesheet';
+    document.head.appendChild(linkFont);
+</script>
 
 </body>
 </html>
