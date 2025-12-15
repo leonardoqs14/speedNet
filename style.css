@@ -338,11 +338,11 @@ section.qualidades .flex div img{
 /* Secao valores */
 
 section.valores{
-    scroll-margin-top: 80px;
+    scroll-margin-top: 120px;
     padding: 40px 4%;
     height: 800px;
     width: auto;
-    background-image: url(img/backgroundVermelho.png);
+    background-image: url(img/bannerPrecos.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -490,10 +490,12 @@ section.valores .flex .card-plano-1g button {
 
 section.vantagens{
     padding: 40px 4%;
+    align-items: center;
     height: 800px;
 }
 
 section.vantagens .interface h2{
+    padding-bottom: 40px;
     color: #ce101e;
     font-size: 38px;
 }
@@ -558,9 +560,10 @@ section.speedNet img {
 /* Clientes */
 
 section.clientes{
-    scroll-margin-top: 80px;
+    scroll-margin-top: 120px;
     padding: 40px 4%;
-    height: 700px;
+    height: 800px;
+    width: auto;
 }
 
 section.clientes .flex{
@@ -570,6 +573,7 @@ section.clientes .flex{
 
 section.clientes .flex img{
     padding: 40px 0 50px 0;
+    align-items: center;
 }
 
 section.clientes .interface h2{
@@ -581,7 +585,7 @@ section.clientes .interface h2{
 
 section.duvidas{
     scroll-margin-top: 80px;
-    background-image: url(img/bannerSpeedTop.png);
+    background-image: url(img/bannerSecaoDuvidas.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -972,6 +976,8 @@ textarea{
     section.valores {
         width: auto;
         height: auto;
+        background-image: none;
+        background: linear-gradient(190deg,#ce101e 0%, rgba(139, 1, 0, 1) 100%);
     }
 
     section.valores .flex {
@@ -993,10 +999,6 @@ textarea{
     }
 
     section.valores .flex .card-plano{
-
-    }
-
-    section.valores .flex .card-plano{
     width: auto;
     max-width: 400px;}
 
@@ -1009,13 +1011,14 @@ textarea{
 
     section.vantagens .interface h2{
         font-size: 30px;
+        text-align: center;
         
     }
     section.vantagens .flex img{
-        width: 300px;
+        width: 100%;
         height: auto;
-        align-items: center;
-        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
 
     section.vantagens .flex .cards{
@@ -1031,6 +1034,7 @@ textarea{
     section.speedNet{
         width: auto;
         height: auto;
+        text-align: center;
     }
     section.speedNet .flex img{
         padding-top: 20px;
@@ -1046,6 +1050,7 @@ textarea{
     section.clientes{
         width: auto;
         height: auto;
+        text-align: center;
     }
 
     section.clientes .flex{
