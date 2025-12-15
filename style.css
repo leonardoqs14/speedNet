@@ -19,9 +19,6 @@
   font-display: swap;
 }
 
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -1113,6 +1110,10 @@ textarea{
     section.contato .contatos2{
         padding: 0;
         text-align: start;
+    }
+
+    section.duvidas{
+        background: linear-gradient(190deg,#ce101e 0%, rgba(139, 1, 0, 1) 100%);
     }
 
 
