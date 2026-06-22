@@ -4,22 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- preloader Font -->
+    <meta name="description" content="SpeedNet - Internet de Fibra Óptica Rápida e Confiável em Riacho Fundo 2. Planos de até 1 Giga com instalação em 24 horas.">
+    <meta name="keywords" content="internet, fibra óptica, speednet, riacho fundo, brasília, planos de internet">
+    <meta name="theme-color" content="#ce101e">
+    
+    <!-- Preload fonts -->
     <link rel="preload" href="fonts/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/Poppins-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <!-- Fim Font -->
-    <!-- Bootstrap icons -->
     
-    <!-- Bootstrap icons fim -->
-    <title>SPEEDNET TELECOM em Riacho Fundo 2 - DF</title>
+    <!-- Favicon -->
+    <title>SpeedNet - Internet Fibra Óptica | Brasília</title>
     <link rel="icon" href="img/faviconSpeedNet.png" type="image/x-icon">
+    
+    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
-     <!-- Meta Tags para as redes sociais (WhatsApp, Facebook, LinkedIn etc) -->
+    
+    <!-- Social Meta Tags -->
     <meta property="og:title" content="SpeedNet - Internet Rápida e Confiável no Riacho Fundo 2">
-    <meta property="og:description" content="Conecte-se com a melhor internet de Riacho Fundo 2: planos de até 1 Giga por apenas R$79,90. Velocidade, estabilidade e preço justo para você navegar sem limites.">
+    <meta property="og:description" content="Conecte-se com a melhor internet de Riacho Fundo 2: planos de até 1 Giga por apenas R$79,90. Velocidade, estabilidade e preço justo.">
     <meta property="og:image" content="https://speed-net-snowy.vercel.app/img/fachadaSpeedAtual%20(2).png">
     <meta property="og:url" content="https://speednetdf.com/">
     <meta property="og:type" content="website">
+    
+    <!-- Scripts -->
     <script src="menu.js" defer></script>
 </head>
 
@@ -28,353 +35,438 @@
 <header>
     <div class="informacoes">
         <p>
-            <a href="https://speednettelecom.sgp.net.br/accounts/central/login" target="_blank"> <i class="bi bi-receipt"></i>2ª VIA DE BOLETOS</a>
+            <a href="https://speednettelecom.sgp.net.br/accounts/central/login" target="_blank">📄 2ª VIA DE BOLETOS</a>
         </p>
         <p>
-            <a href="tel:+5561994358343"><i class="bi bi-telephone-outbound"></i>(61) 99435-8343</a>
-            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20falar%20com%20a%20SPEEDNET%20TELECOM" target="_blank"><i class="bi bi-whatsapp"></i>(61) 99104-3595</a>
+            <a href="tel:+5561994358343">📞 (61) 99435-8343</a>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20falar%20com%20a%20SPEEDNET%20TELECOM" target="_blank">💬 (61) 99104-3595</a>
         </p>
     </div>
     <div class="interface">
         <div class="logo">
-            <a href="#">
-                <img src="img/logoEscura.png" alt="Logo speednet 500px">
+            <a href="#inicio">
+                <img src="img/logoEscura.png" alt="Logo SpeedNet" loading="lazy">
             </a>
-        </div><!-- logo -->
+        </div>
 
         <nav class="menuDesktop">
             <ul>
                 <li><a href="#inicio">Início</a></li>
-                <li><a href="#valores">Planos</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#cobertura">Cobertura</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
                 <li><a href="#avaliacoes">Avaliações</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
 
         <div class="botoes">
-
-                    <div class="btnContato">
-            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20falar%20com%20a%20SPEEDNET%20TELECOM" target="_blank">
-                <button>ASSINE JÁ</button>
-            </a>
+            <div class="btnContato">
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20falar%20com%20a%20SPEEDNET%20TELECOM" target="_blank">
+                    <button>ASSINE JÁ</button>
+                </a>
+            </div>
+            <div class="btnCliente">
+                <a href="https://speednettelecom.sgp.net.br/accounts/central/login" target="_blank">
+                    <button>SOU CLIENTE</button>
+                </a>
+            </div>
         </div>
-
-                <div class="btnCliente">
-            <a href="https://speednettelecom.sgp.net.br/accounts/central/login" target="_blank">
-                <button>SOU CLIENTE</button>
-            </a>
-        </div>
-        </div>
-        
 
         <div class="btn-abrir-menu" id="btn-menu">
-            <button class="menu-btn">&#9776;</button> 
+            <button class="menu-btn">☰</button>
         </div>
 
         <div class="menu-mobile" id="menu-mobile">
             <div class="btn-fechar">
-                <button class="menu-btn" id="menuToggle">&#10005;</button>
+                <button class="menu-btn" id="menuToggle">✕</button>
             </div>
-
             <nav>
                 <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#valores">Planos</a></li>
-                <li><a href="#avaliacoes">Avaliações</a></li>
-                <li><a href="#contato">Contato</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#planos">Planos</a></li>
+                    <li><a href="#cobertura">Cobertura</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#avaliacoes">Avaliações</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
-                                            <div class="btnCliente1">
+            <div class="btnCliente1">
                 <a href="https://speednettelecom.sgp.net.br/accounts/central/login" target="_blank">
                     <button>SOU CLIENTE</button>
                 </a>
+            </div>
         </div>
-        </div> <!-- Menu mobile -->
-
         <div class="overlay-menu" id="overlay-menu"></div>
-    </div> <!-- interface -->
+    </div>
 </header>
 
-<main>
-            <section id="inicio" class="topoDoSite">
-            <div class="slider-container" id="slider">
-                <div class="slider-track">
-                <!-- Imagens desktop -->
+<main id="main">
+    <!-- Hero Section -->
+    <section id="inicio" class="topoDoSite">
+        <div class="slider-container" id="slider">
+            <div class="slider-track">
                 <div class="slide desktop" style="background-image: url('img/bannerSiteSpeedNetAt.webp');"></div>
                 <div class="slide desktop" style="background-image: url('img/bannerAplicativoSpeedNet.webp');"></div>
-
-                <!-- Imagens mobile -->
                 <div class="slide mobile" style="background-image: url('img/mobilePlanoAt.webp');"></div>
                 <div class="slide mobile" style="background-image: url('img/mobileAplicativoAt.webp');"></div>
-                </div>
             </div>
+        </div>
+    </section>
 
-
-    </section><!-- Topo do Site -->
-
+    <!-- Qualidades Section -->
     <section class="qualidades">
         <div class="interface">
             <div class="flex">
-                <div>
-                    <img src="img/24Horas.png" alt="">
-                    <h3>INSTALAÇÃO EM 24 HORAS</h3>
+                <div class="qualidade-card">
+                    <img src="img/24Horas.png" alt="Instalação em 24 horas" loading="lazy">
+                    <h3>INSTALAÇÃO EM 24H</h3>
                 </div>
-
-                <div>
-                    <img src="img/calendario.png" alt="">
+                <div class="qualidade-card">
+                    <img src="img/calendario.png" alt="Mensalidade fixa" loading="lazy">
                     <h3>MENSALIDADE FIXA</h3>
                 </div>
-
-                <div>
-                    <img src="img/taxaDeAdesao.png" alt="">
+                <div class="qualidade-card">
+                    <img src="img/taxaDeAdesao.png" alt="Sem taxa de adesão" loading="lazy">
                     <h3>SEM TAXA DE ADESÃO</h3>
-                </div>
-            </div><!--flex -->
-        </div><!--interface -->
-    </section> <!--qualidades -->
-
-    <section id="valores" class="valores">
-        <div class="interface">
-            <h2>PLANOS DE INTERNET SOB MEDIDA PARA VOCÊ</h2>
-            <div class="flex">
-                <div class="card-plano">
-                    <h3 class="titulo">PLANO ESSENCIAL</h3>
-                    <div class="velocidade">100 MEGA</div>
-                    <div class="porApenas">por apenas</div>
-                    <div class="preco"><span>R$</span>49,90<span>/mês</span></div>
-                    <div class="imagem">
-                        <img src="img/descricaoPlano100Mega.png" alt="">
-                    </div>
-                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20o%20PLANO%20ESSENCIAL%20de%20R$49,90" target="_blank">
-                        <button>ASSINE JÁ</button>
-                    </a>
-                    
-                </div>
-                <div class="card-plano">
-                    <h3 class="titulo">PLANO TURBO</h3>
-                    <div class="velocidade">300 MEGA</div>
-                    <div class="porApenas">por apenas</div>
-                    <div class="preco"><span>R$</span>79,90<span>/mês</span></div>
-                    <div class="imagem">
-                        <img src="img/descricaoPlano300Mega.png" alt="">
-                    </div>
-                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20o%20PLANO%20TURBO%20de%20R$79,90" target="_blank">
-                        <button>ASSINE JÁ</button>
-                    </a>
-                </div>
-                <div class="card-plano">
-                    <h3 class="titulo">PLANO NITRO</h3>
-                    <div class="velocidade">800 MEGA</div>
-                    <div class="porApenas">por apenas</div>
-                    <div class="preco"><span>R$</span>99,90<span>/mês</span></div>
-                    <div class="imagem">
-                        <img src="img/descricaoPlano800Mega.png" alt="">
-                    </div>
-                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20o%20PLANO%20NITRO%20de%20R$99,90" target="_blank">
-                        <button>ASSINE JÁ</button>
-                    </a>
-                </div>
-                <div class="card-plano-1g">
-                    <img class="selo" src="img/mais-vendido.png" alt="">
-                    <h3 class="titulo">PLANO ULTRA</h3>
-                    <div class="velocidade">1 GIGA</div>
-                    <div class="porApenas">por apenas</div>
-                    <div class="preco"><span>R$</span>79,90<span>/mês</span></div>
-                    <div class="imagem">
-                        <img src="img/descricaoPlano1Giga.png" alt="">
-                    </div>
-                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20o%20PLANO%20ULTRA%20de%20R$79,90" target="_blank">
-                        <button>ASSINE JÁ</button>
-                    </a>
-                </div>
-            </div><!--flex -->
-        </div><!--interface -->
-    </section><!--Valores -->
-
-    <section class="vantagens">
-        <div class="interface">
-            <h2>VANTAGENS DE CONTRATAR OS NOSSOS PLANOS:</h2>
-            <div class="flex">
-                <div>
-                    <img src="img/mulherMaoParaCima.webp" alt="">
-                </div>
-                <div>
-                    <div class="cards">
-                        <img src="img/wifiBranco.png" alt="">
-                        <h3>WIFI 6 </h3>
-                        <p>Nós Providenciamos todos os fatores necessários para você navegar com tranquilidade com conexão sem fio.</p>
-                    </div>
-                    <div class="cards">
-                        <img src="img/Foguete.png" alt="">
-                        <h3>ALTA VELOCIDADE</h3>
-                        <p>Sempre visando segurança, comodidade e total viabilidade, interligamos você a internet com acesso em fibra óptica.</p>
-                    </div>
-                    <div class="cards">
-                        <img src="img/Predio.png" alt="">
-                        <h3>PARA CASAS, EMPRESAS E CONDOMÍNIOS</h3>
-                        <p>Oferecemos planos que atendem às exigências de cada cliente, seja para sua residência ou empresa.</p>
-                    </div>
-                </div>
-            </div><!--Flex -->
-        </div><!--Interface -->
-    </section><!--Vantagens -->
-
-    <section class="speedNet">
-        <div class="interface">
-            <div class="flex">
-                <div>
-                    <h2>SPEEDNET TELECOM É A MELHOR INTERNET PARA VOCÊ</h2>
-                    <p>Trabalhamos todos os dias para disponibilizar internet de melhor qualidade, sempre com a última tecnologia do mercado e todas as propostas de inovação que fazem parte da nossa essência.Vamos expandir para ir além dos horizontes e levar o que temos de melhor até você: nossa conexão.</p>
-                    <a class="btnContato" href="#valores" >
-                        <button>VER PLANOS</button>
-                    </a>
-                </div>
-                <div>
-                    <img src="img/fachadaSpeedAtual (2).png" alt="Imagem da fachada da speedNet">
-                </div>
-            </div><!--Flex -->
-        </div><!--Interface -->
-    </section><!--speed Net -->
-
-    <section id="avaliacoes" class="clientes">
-        <div class="interface">
-            <h2>O QUE NOSSOS CLIENTES DIZEM SOBRE NÓS</h2>
-            <div class="flex">
-                <img src="img/cliente1.png" alt="">
-                <img src="img/cliente2.png" alt="">
-                <img src="img/cliente3.png" alt="">
-                <img src="img/cliente4.png" alt="">
-                <img src="img/cliente5.png" alt="">
-                <img src="img/cliente6.png" alt="">
-            </div><!--Flex -->
-        </div><!--Interface -->
-    </section><!--Clientes -->
-
-<section class="duvidas">
-        <div class="interface">
-            <div class="flex">
-                
-                <div>
-                    <div class="accordion">
-                <h2>TIRE SUAS DÚVIDAS</h2>
-                <div class="tab">
-                <input type="checkbox" name="accordion-1" id="cb1" checked>
-                <label for="cb1" class="tab__label">Preciso trocar a senha do Wi-Fi, o que fazer?</label>
-                <div class="tab__content">
-                <p>Para trocar a senha do Wi-Fi, entre em contato com nosso suporte técnico e solicite a alteração. Você pode solicitar o atendimento através do nosso aplicativo, redes sociais, WhatsApp ou ligação.</p>
-                </div>
-            </div>
-            <div class="tab">
-                <input type="checkbox" name="accordion-1" id="cb2">
-                <label for="cb2" class="tab__label">Como vejo o meu boleto?</label>
-                <div class="tab__content">
-                <p>O seu boleto é enviado mensalmente no e-mail cadastrado 15 dias antes da data de vencimento da fatura, mas você também pode encontra-lo através do botão "MINHAS FATURAS", através do nosso aplicativo  ou na opção "SOU CLIENTE" no menu do site.</p>
-                </div>
-            </div>
-            <div class="tab">
-                <input type="checkbox" name="accordion-1" id="cb3">
-                <label for="cb3" class="tab__label">Como realizar o teste de velocidade corretamente?</label>
-                <div class="tab__content">
-                <p>Para realizar o teste de velocidade com precisão, utilize um computador ligado ao cabo de rede no seu rotedor, além disso, interrompa o uso do Wi-Fi em outros dispositivos e pause atividades como, downloads e transferência de dados.</p>
-                </div>
-            </div>
-            <div class="tab">
-                <input type="checkbox" name="accordion-1" id="cb4">
-                <label for="cb4" class="tab__label">Qual o prazo de instalação?</label>
-                <div class="tab__content">
-                <p>O prazo pode variar conforme a demanda de pedidos, mas nós trabalhamos com agendamento e respeitamos o seu tempo. Consulte-nos sobre as datas disponiveis. </p>
-                </div>
-            </div>
-                </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Plans Section -->
+    <section id="planos" class="valores">
+        <div class="interface">
+            <h2>PLANOS DE INTERNET SOB MEDIDA</h2>
+            <p class="section-subtitle">Escolha o plano perfeito para suas necessidades</p>
+            <div class="flex plans-flex">
+                <div class="card-plano">
+                    <div class="card-header">
+                        <h3 class="titulo">ESSENCIAL</h3>
+                        <span class="badge">Iniciante</span>
+                    </div>
+                    <div class="velocidade">100 MEGA</div>
+                    <div class="beneficios">
+                        <ul>
+                            <li>✓ WiFi 6</li>
+                            <li>✓ Suporte 24/7</li>
+                            <li>✓ Roteador incluído</li>
+                        </ul>
+                    </div>
+                    <div class="preco"><span>R$</span>49,90<span>/mês</span></div>
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20o%20PLANO%20ESSENCIAL%20de%20R$49,90" target="_blank">
+                        <button class="cta-button">ASSINE JÁ</button>
+                    </a>
+                </div>
+
+                <div class="card-plano">
+                    <div class="card-header">
+                        <h3 class="titulo">TURBO</h3>
+                        <span class="badge">Popular</span>
+                    </div>
+                    <div class="velocidade">300 MEGA</div>
+                    <div class="beneficios">
+                        <ul>
+                            <li>✓ WiFi 6</li>
+                            <li>✓ Suporte 24/7</li>
+                            <li>✓ Roteador incluído</li>
+                            <li>✓ 1ª instalação grátis</li>
+                        </ul>
+                    </div>
+                    <div class="preco"><span>R$</span>79,90<span>/mês</span></div>
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20o%20PLANO%20TURBO%20de%20R$79,90" target="_blank">
+                        <button class="cta-button">ASSINE JÁ</button>
+                    </a>
+                </div>
+
+                <div class="card-plano">
+                    <div class="card-header">
+                        <h3 class="titulo">NITRO</h3>
+                        <span class="badge">Profissional</span>
+                    </div>
+                    <div class="velocidade">800 MEGA</div>
+                    <div class="beneficios">
+                        <ul>
+                            <li>✓ WiFi 6</li>
+                            <li>✓ Suporte 24/7</li>
+                            <li>✓ Roteador incluído</li>
+                            <li>✓ Prioridade na rede</li>
+                        </ul>
+                    </div>
+                    <div class="preco"><span>R$</span>99,90<span>/mês</span></div>
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20o%20PLANO%20NITRO%20de%20R$99,90" target="_blank">
+                        <button class="cta-button">ASSINE JÁ</button>
+                    </a>
+                </div>
+
+                <div class="card-plano-1g">
+                    <div class="selo-container">
+                        <img class="selo" src="img/mais-vendido.png" alt="Mais vendido">
+                    </div>
+                    <div class="card-header">
+                        <h3 class="titulo">ULTRA</h3>
+                        <span class="badge badge-premium">Premium</span>
+                    </div>
+                    <div class="velocidade">1 GIGA</div>
+                    <div class="beneficios">
+                        <ul>
+                            <li>✓ WiFi 6 Pro</li>
+                            <li>✓ Suporte VIP</li>
+                            <li>✓ 2 roteadores</li>
+                            <li>✓ Garantia estendida</li>
+                        </ul>
+                    </div>
+                    <div class="preco"><span>R$</span>129,90<span>/mês</span></div>
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5561991043595&text=Quero%20o%20PLANO%20ULTRA%20de%20R$129,90" target="_blank">
+                        <button class="cta-button cta-premium">ASSINE JÁ</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vantagens Section -->
+    <section class="vantagens">
+        <div class="interface">
+            <h2>VANTAGENS DE CONTRATAR</h2>
+            <div class="flex">
+                <div>
+                    <img src="img/mulherMaoParaCima.webp" alt="Cliente satisfeito" loading="lazy">
+                </div>
+                <div class="vantagens-cards">
+                    <div class="cards">
+                        <div class="icon">📡</div>
+                        <h3>WIFI 6</h3>
+                        <p>Tecnologia de última geração para conexão sem fio ultra-rápida e estável em toda a sua casa.</p>
+                    </div>
+                    <div class="cards">
+                        <div class="icon">🚀</div>
+                        <h3>ALTA VELOCIDADE</h3>
+                        <p>Conexão por fibra óptica com velocidades de até 1 Giga. Perfeito para streaming, games e trabalho.</p>
+                    </div>
+                    <div class="cards">
+                        <div class="icon">🏢</div>
+                        <h3>PARA TODOS</h3>
+                        <p>Planos flexíveis para casas, empresas e condomínios. Atendemos suas necessidades específicas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About SpeedNet Section -->
+    <section class="speedNet" id="sobre">
+        <div class="interface">
+            <div class="flex">
+                <div>
+                    <h2>SPEEDNET TELECOM</h2>
+                    <h3>A Melhor Internet Para Você</h3>
+                    <p>Trabalhamos todos os dias para disponibilizar internet de melhor qualidade, sempre com a última tecnologia do mercado. Nossa missão é conectar Brasília com velocidade, confiabilidade e preço justo.</p>
+                    <div class="missao-valores">
+                        <div class="valor">
+                            <strong>📍 MISSÃO:</strong> Fornecer internet de alta qualidade e acessível
+                        </div>
+                        <div class="valor">
+                            <strong>👁️ VISÃO:</strong> Ser a melhor provedora de internet do DF
+                        </div>
+                        <div class="valor">
+                            <strong>💡 VALORES:</strong> Qualidade, inovação e atendimento excelente
+                        </div>
+                    </div>
+                    <a class="btnContato" href="#planos">
+                        <button>VER PLANOS</button>
+                    </a>
+                </div>
+                <div>
+                    <img src="img/fachadaSpeedAtual (2).png" alt="Fachada SpeedNet" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Section -->
+    <section id="cobertura" class="cobertura">
+        <div class="interface">
+            <h2>ÁREA DE COBERTURA</h2>
+            <p class="section-subtitle">Serviços disponíveis em Brasília</p>
+            <div class="cobertura-content">
+                <div class="cobertura-info">
+                    <h3>Riacho Fundo 2</h3>
+                    <p>Nossa área principal de cobertura, oferecendo os melhores planos e atendimento.</p>
+                    <ul class="cobertura-list">
+                        <li>✓ QS 14 BLOCO D LOTE 5</li>
+                        <li>✓ Região completa com cobertura</li>
+                        <li>✓ Instalação rápida</li>
+                    </ul>
+                </div>
+                <div class="mapa-placeholder">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4550.610284407467!2d-48.03810202410906!3d-15.945736826701474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9c89d7c5c5c5d:0x5c5c5c5c5c5c5c5c!2sRiacho%20Fundo%20II!5e0!3m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="avaliacoes" class="clientes">
+        <div class="interface">
+            <h2>O QUE NOSSOS CLIENTES DIZEM</h2>
+            <div class="flex reviews-grid">
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Excelente velocidade e atendimento! Recomendo!"</p>
+                    <strong>- Cliente SpeedNet</strong>
+                </div>
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Instalação rápida e internet sem interrupções."</p>
+                    <strong>- Cliente SpeedNet</strong>
+                </div>
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Melhor custo-benefício de Brasília!"</p>
+                    <strong>- Cliente SpeedNet</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="duvidas">
+        <div class="interface">
+            <div class="flex">
+                <div>
+                    <div class="accordion">
+                        <h2>TIRE SUAS DÚVIDAS</h2>
+                        
+                        <div class="tab">
+                            <input type="checkbox" name="accordion-1" id="cb1" checked>
+                            <label for="cb1" class="tab__label">Como faço para contratar?</label>
+                            <div class="tab__content">
+                                <p>É muito simples! Entre em contato conosco pelo WhatsApp, telefone ou preencha o formulário abaixo. Nosso atendimento te guiará pelo processo de contratação e agendamento da instalação.</p>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <input type="checkbox" name="accordion-1" id="cb2">
+                            <label for="cb2" class="tab__label">Qual o prazo de instalação?</label>
+                            <div class="tab__content">
+                                <p>Oferecemos instalação em até 24 horas após a contratação, sujeito à disponibilidade. Trabalhamos com agendamento e respeitamos seu tempo. Consulte-nos sobre as datas disponíveis.</p>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <input type="checkbox" name="accordion-1" id="cb3">
+                            <label for="cb3" class="tab__label">Como vejo meu boleto?</label>
+                            <div class="tab__content">
+                                <p>Seu boleto é enviado mensalmente no e-mail cadastrado 15 dias antes da data de vencimento. Você também pode consultá-lo através do nosso aplicativo ou acessando sua conta no portal de clientes.</p>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <input type="checkbox" name="accordion-1" id="cb4">
+                            <label for="cb4" class="tab__label">Vocês atendem meu endereço?</label>
+                            <div class="tab__content">
+                                <p>Atendemos principalmente a região de Riacho Fundo 2, mas também servimos outras áreas de Brasília. Entre em contato para confirmar se seu endereço está em nossa área de cobertura.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
     <section id="contato" class="contato">
         <div class="interface">
             <div class="flex">
                 <div class="faleConosco">
                     <h2>Fale Conosco</h2>
-                    <p>Dúvidas, elogios, sugestões e críticas? <br>Preencha o formulário e a gente responde rapidinho.</p>
-                        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
-                            <div class="grupo-form">
-                                <input placeholder="Nome" class="campo-form" id="nome">
-                            </div>
-                            <div class="grupo-form">
-                                <textarea placeholder="Digite a sua Mensagem" class="campo-form" rows="6" id="mensagem"></textarea>
-                            </div>
-
-                            <button type="submit" class="botao-form">ENVIAR WHATSAPP</button>
-
-                        </form>
+                    <p>Dúvidas, elogios, sugestões e críticas? Preencha o formulário e a gente responde rapidinho.</p>
+                    <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+                        <div class="grupo-form">
+                            <input placeholder="Seu Nome" class="campo-form" id="nome" required>
+                        </div>
+                        <div class="grupo-form">
+                            <input placeholder="Seu Email" class="campo-form" id="email" type="email" required>
+                        </div>
+                        <div class="grupo-form">
+                            <textarea placeholder="Digite sua Mensagem" class="campo-form" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="botao-form">ENVIAR WHATSAPP</button>
+                    </form>
                 </div>
+
                 <div class="contatos2">
-                    
                     <div class="blocoContato">
                         <a target="_blank" href="https://wa.me/5561991043595">
-                        <img src="img/WHATSAPP.png" alt="">
+                            <img src="img/WHATSAPP.png" alt="WhatsApp" loading="lazy">
                         </a>
                         <div class="descricao">
-                            <h3>Nosso whatsapp</h3>
-                            <p>Enviar mensagem</p>
+                            <h3>Nosso WhatsApp</h3>
+                            <p>(61) 99104-3595</p>
                         </div>
                     </div>
-                    
+
                     <div class="blocoContato">
-                        <a target="_blank" href="https://fast.com/pt/">
-                        <img src="img/SPEEDTEST.png" alt="">
+                        <a target="_blank" href="tel:+5561994358343">
+                            <img src="img/WHATSAPP.png" alt="Telefone" loading="lazy">
                         </a>
                         <div class="descricao">
-                            <h3>Teste de velocidade</h3>
+                            <h3>Telefone</h3>
+                            <p>(61) 99435-8343</p>
+                        </div>
+                    </div>
+
+                    <div class="blocoContato">
+                        <a target="_blank" href="https://speednettelecom.sgp.net.br/accounts/central/login">
+                            <img src="img/BOLETO.png" alt="Boleto" loading="lazy">
+                        </a>
+                        <div class="descricao">
+                            <h3>2ª Via de Boleto</h3>
+                            <p>Emitir agora</p>
+                        </div>
+                    </div>
+
+                    <div class="blocoContato">
+                        <a target="_blank" href="https://fast.com/pt/">
+                            <img src="img/SPEEDTEST.png" alt="Speed Test" loading="lazy">
+                        </a>
+                        <div class="descricao">
+                            <h3>Teste de Velocidade</h3>
                             <p>Confira sua conexão</p>
                         </div>
                     </div>
-                    <div class="blocoContato">
-                        <a target="_blank" href="https://speednettelecom.sgp.net.br/accounts/central/login">
-                        <img src="img/BOLETO.png" alt="">
-                        </a>
-                        <div class="descricao">
-                            <h3>2ª via de boleto</h3>
-                            <p>Emitir agora</p>
-                        </div>
-                        
-                    </div>
                 </div>
-            </div><!-- fim da div flex -->
-        </div><!-- fim da div interface -->
-    </section><!-- fim da section contato -->
-
-    <div class="disponibilidade">
-        
-    </div>
-
+            </div>
+        </div>
+    </section>
 </main>
 
 <footer class="footer">
     <div class="footer-container">
-        <!-- Logo da Empresa -->
         <div class="footer-logo">
-            <img src="img/logoSpeedNetVermelhoBranco.png" alt="SpeedNet Logo">
+            <img src="img/logoSpeedNetVermelhoBranco.png" alt="SpeedNet Logo" loading="lazy">
             <div class="footer-social">
-            <a href="https://www.instagram.com/speednet_telecom_/" target="_blank"><img src="img/instagram.png" alt=""></a>
-            <a href="https://wa.me/5561991043595" target="_blank"><img src="img/whatsapp2.png" alt=""></a>
-        </div>
+                <a href="https://www.instagram.com/speednet_telecom_/" target="_blank" aria-label="Instagram">
+                    <img src="img/instagram.png" alt="Instagram" loading="lazy">
+                </a>
+                <a href="https://wa.me/5561991043595" target="_blank" aria-label="WhatsApp">
+                    <img src="img/whatsapp2.png" alt="WhatsApp" loading="lazy">
+                </a>
+            </div>
         </div>
 
-        <!-- Informações de Contato e Horário -->
         <div class="footer-info">
             <div class="contact-info">
                 <h3>SAC</h3>
-                <p>(61) 99435 8343</p>
-                <p>(61) 99104 3595</p>
+                <p><a href="tel:+556199358343">(61) 99435-8343</a></p>
+                <p><a href="tel:+5561991043595">(61) 99104-3595</a></p>
                 <p><a href="mailto:speedbreno@gmail.com">speedbreno@gmail.com</a></p>
 
                 <div class="hours-info">
                     <h3>HORÁRIO</h3>
-                    <p>HORÁRIO DE FUNCIONAMENTO</p>
-                    <p>DAS 09:00HS AS 18:00HS, DE SEGUNDA A SEXTA.</p>
-                    <p>DAS 09:00HS AS 16:00HS, SÁBADO</p>
+                    <p>SEG-SEX: 09:00 - 18:00</p>
+                    <p>SÁB: 09:00 - 16:00</p>
                 </div>
             </div>
 
@@ -383,29 +475,27 @@
                 <p>QS 14 BLOCO D LOTE 5</p>
                 <p>RIACHO FUNDO 2 – DF</p>
                 <p>71884-550</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4550.610284407467!2d-48.03810202410906!3d-15.945736826701474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2b992d09310d%3A0x1f5c6f2f84ffba20!2sSpeednet%20Telecom%20Telecomunica%C3%A7%C3%B5es!5e1!3m2!1spt-BR!2sbr!4v1765042848916!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
             </div>
 
-             <div class="footer-social">
-            
-            <div>
-            <h3>INSTALE O NOSSO APLICATIVO:</h3>
-            <div class="footer-aplicativo">
-            <a href="https://apps.apple.com/br/app/speednet-df/id6746163194" target="_blank"><img src="img/logoAppStore.webp" alt=""></a>
-            <a href="https://play.google.com/store/apps/details?id=app.quark.speednettelecom&hl=pt_BR" target="_blank"><img src="img/logoPlaystore.webp" alt=""></a>
+            <div class="footer-social app-section">
+                <h3>BAIXE NOSSO APP</h3>
+                <div class="footer-aplicativo">
+                    <a href="https://apps.apple.com/br/app/speednet-df/id6746163194" target="_blank" aria-label="App Store">
+                        <img src="img/logoAppStore.webp" alt="App Store" loading="lazy">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=app.quark.speednettelecom&hl=pt_BR" target="_blank" aria-label="Play Store">
+                        <img src="img/logoPlaystore.webp" alt="Play Store" loading="lazy">
+                    </a>
+                </div>
             </div>
-            </div>
-        </div>
         </div>
     </div>
-
 </footer>
-    <div class="copy">
-        <p>Copyright © 2025. Todos os direitos reservados.</p>
-        <a href="politica.html">Politica de privacidade</a>
-    </div>
 
+<div class="copy">
+    <p>&copy; 2025 SpeedNet Telecom. Todos os direitos reservados.</p>
+    <a href="politica.html">Política de Privacidade</a>
+</div>
 
 </body>
 </html>
